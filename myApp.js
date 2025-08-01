@@ -1,8 +1,6 @@
 const express = require('express');
 const helmet = require('helmet');
 // app.js
-const usersRouter = require('./routes/users'); // Assuming users.js correctly exports the router
-myapp.use('/users', usersRouter);
 
 const app = express();
 
